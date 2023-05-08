@@ -54,8 +54,8 @@ function App() {
         {showQuotes.map((item) => {
           return (
             <div key={item.index}>
-              <h4>{item.quote}</h4>
-              <h5>{item.author}</h5>
+              <h4>Quote: {item.quote}</h4>
+              <h5>Author: {item.author}</h5>
             </div>
           );
         })}
